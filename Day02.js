@@ -5,6 +5,7 @@ const str = "JavaScript is awesome";
 const reverseAString = (str) => {
   // write code here
   const reversedString = str.split(" ").reverse().join(" ");
+
   return reversedString;
 };
 
