@@ -6,6 +6,7 @@ const reverseGivenInteger = (num) => {
   // write code here
   const reverseNumber =
     parseFloat(num.toString().split("").reverse().join("")) * Math.sign(num);
+
   return reverseNumber;
 };
 
